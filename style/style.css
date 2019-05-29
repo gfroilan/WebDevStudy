@@ -4,7 +4,7 @@ body{
 	line-height: 1.5; */
 	padding: 0;
 	margin: 0;
-	background-color: #f4f4f4;
+	background-color: #000000;
 }
 
 /* Global */
@@ -24,16 +24,16 @@ ul{
 
 .button_1{
 	height: 38px;
-	background:#809fff;
+	background:#FAE89D;
 	border:0;
 	padding-left: 20px;
 	padding-right: 20px;
-	color:#ffffff;
+	color:#922B21;
 }
 
 .dark{
 	padding:15px;
-	background:#35424a;
+	background:#FAE89D;
 	color:#ffffff;
 	margin-top: 10px;
 	margin-bottom: 10px;
@@ -41,17 +41,17 @@ ul{
 
 /* Header */
 header{
-	background:#4d4d80	;
-	color:#ffffff;
+	background:#922B21;
+	color:#FAE89D;
 	padding-top:30px;
 	min-height:70px;
-	border-bottom:#809fff 3px solid;
+	border-bottom:#FAE89D 3px solid;
 
 }
 
 /* Add header decoration */
 header a{
-	color:#ffffff;
+	color:#FAE89D;
 	text-decoration:none;
 	text-transform: uppercase;
 	font-size:16px;
@@ -80,7 +80,7 @@ header nav{
 }
 
 header .highlight,header .current a{
-	color:#809fff;
+	color:#FAE89D;
 	font-weight:bold;
 }
 
@@ -94,7 +94,7 @@ header a:hover{
 	min-height: 400px;
 	background:url('../img/IMG_20190426_004210.jpg') repeat 0 -400px;
 	text-align: center;
-	color:#ffffff;
+	color:#FAE89D;
 }
 
 #showcase h1{
@@ -110,8 +110,8 @@ header a:hover{
 /* Newsletter */
 #newsletter{
 	padding: 15px;
-	color:#ffffff;
-	background: #4d4d80;
+	color:#FAE89D;
+	background:#922B21;
 }
 
 #newsletter h1{
@@ -138,12 +138,27 @@ header a:hover{
 	float:left;
 	text-align: center;
 	width:30%;
+	min-height: 300px;
 	padding:10px;
+	border-style: solid;
+	border-width: 5px;
+	border-right-color: #FAE89D;
+	border-right-style: ridge;
+	border-spacing: 10px;
 }
 
 #boxes .box img{
-	width:90px;
+	width:120px;
 }
+
+#boxes .box h2{
+	color: #FAE89D;
+}
+
+#boxes .box h3{
+	color: #FAE89D;
+}
+
 
 /* Sidebar */
 aside#sidebar{
@@ -175,8 +190,8 @@ ul#services li{
 footer{
 	padding:20px;
 	margin-top: 20px;
-	color: #ffffff;
-	background:#e8491d;
+	color: #FAE89D;
+	background:	#922B21;
 	text-align: center;
 
 }
