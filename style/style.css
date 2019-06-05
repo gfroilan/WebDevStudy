@@ -7,14 +7,17 @@ body{
 	background-color: #000000;
 }
 
-/* Global */
-.container{
-	width: 80%;
-	margin: auto;
-	overflow: hidden;
+/* Global*/
+/*.container{
+	width: 85%;*/
+	/*margin: auto;*/
+	/*overflow: hidden;
+	align-items: center;
+	justify-content: center;
+	text-align: center;*/
 	/* If something goes out of the div the content is not hidden */
 
-}
+/*}*/ 
 
 /* Change all links to have 0 padding */
 ul{
@@ -43,8 +46,8 @@ ul{
 header{
 	background:#922B21;
 	color:#FAE89D;
-	padding-top:30px;
-	min-height:70px;
+	padding-top:40px;
+	min-height:60px;
 	border-bottom:#FAE89D 3px solid;
 
 }
@@ -65,18 +68,22 @@ header li{
 	/* for padding it goes padding: top right bottom left; */
 }
 
-/* Use hashtags to identify ids */
+/* Use hashtags to identify ids
 header #branding{
 	float:left;
 }
 
 header #branding h1{
 	margin:0;
-}
+} */
 
-header nav{
-	float:right;
-	margin-top:10px;
+.nav-container{
+	/*display: grid;*/
+	/*grid-template-columns: repeat(3, 1fr);*/
+	/*grid-gap: 1rem;*/
+	/*align-items: center;*/
+	/*justify-content: center;*/
+	/*text-align: center;*/
 }
 
 header .highlight,header .current a{
